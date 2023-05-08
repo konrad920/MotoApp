@@ -2,6 +2,6 @@
 {
     public class Manager : Employee
     {
-        public string ToString() => base.ToString() + "Manager";
+        public override string ToString() => base.ToString() + "(Manager)";
     }
 }
